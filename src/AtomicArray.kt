@@ -1,6 +1,10 @@
 import kotlinx.atomicfu.atomic
 import kotlinx.atomicfu.loop
 
+/**
+ * @author Belousov Timofey
+ */
+
 interface Descriptor {
     fun complete()
 }
